@@ -153,6 +153,12 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 @media (max-width: 991.98px) { .templateux-hero h1, .intro h1 { font-size: 36px; } }
 
+.templateux-portfolio-grid { position: relative; margin-top: -100px; }
+
+.templateux-portfolio-grid span { font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: 400; color: #000;}
+
+@media (max-width: 991.98px) { .templateux-portfolio-grid { margin-top: -50px; } }
+
 .templateux-portfolio-overlap { position: relative; margin-top: -100px; }
 
 .templateux-portfolio-overlap span { font-family: 'Crimson Text', serif; font-style: italic; font-weight: 700; color: #53575f; }
