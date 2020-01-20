@@ -281,6 +281,10 @@ textarea.form-control { height: inherit; }
 
 #map { height: 700px; width: 100%; }
 
+.mcdblock-1 { padding: 5em 0em 5em ; background: rgba(243, 220, 186, 0.2); }
+
+.mcdblock-1 { display: block; }
+
 .literature { padding: 5em 0em 5em ; background: #f7f7f7; }
 
 .literature { display: block; }
@@ -299,7 +303,7 @@ textarea.form-control { height: inherit; }
 
 .work-detail .cap { font-family: 'Montserrat', sans-serif; font-style: normal; display: block; font-weight: 300; font-size: 15px; color: #7f8490; text-align: center; }
 
-.work-detail strong { display: block; font-weight: normal; color: #000; text-align: center; }
+.work-detail strong { display: block; font-weight: normal; color: #53575f;  }
 
 .custom-pagination { width: 100%; text-align: center; display: inline-block; }
 
