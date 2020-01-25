@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
 
-    <title>Login</title>
+    <title>Mickey Law Design Portfolio - 5" Deskset</title>
 
     <style>
 
@@ -147,23 +147,21 @@ p {
 		</div>
 		<br>
 		<form name="login">
-		<div class="login">
-			<p>Please enter the password below.</p>
-            <input type="password" placeholder="password" id="pswd"><br>
-			<input type="button" value="Go" onclick="checkPswd()"  id="button"/>
-            <p><a href="http://mickeylaw.design/">BACK</p>
-		</div>
+    		<div class="login">
+    			<p>Please enter the password below.</p>
+                <input type="password" placeholder="password" id="pswd"><br>
+    			<input type="button" value="Go" onclick="checkPswd()"  id="button"/>
+                <p><a href="http://mickeylaw.design/">BACK</p>
+    		</div>
+        </form>
     </div>
 
 
-
-</form>
-
 <script language="javascript">
 
-document.onkeypress = enter;
+document.onkeydown = enter;
 function enter(e) {
-    if (e.which == 13) {
+    if (e.keyCode == 13) {
         checkPswd();
     }
 }
@@ -172,7 +170,7 @@ function checkPswd() {
     var confirmPassword = "1234";
     var password = document.getElementById("pswd").value;
     if (password == confirmPassword) {
-         window.open("5indeskset.html")
+         window.open("5indeskset.html");
     }
     else{
         alert("Invalid password, please try again.");
