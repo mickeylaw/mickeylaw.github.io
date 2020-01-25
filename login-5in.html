@@ -3,9 +3,9 @@
 
 <head>
 
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-  <title>Login</title>
+    <title>Login</title>
 
     <style>
 
@@ -14,7 +14,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:700,700i&display=swap');
-
 
 
 .body{
@@ -122,6 +121,17 @@
 ::-moz-input-placeholder{
    color: rgba(60,60,60,0.6);
 }
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #53575f;
+}
+
 </style>
 
 
@@ -130,7 +140,7 @@
 
 <body oncontextmenu="return false">
 
-  <div class="body"></div>
+    <div class="body">
 		<div class="grad"></div>
 		<div class="header">
 			<div>Mickey Law</div>
@@ -138,26 +148,35 @@
 		<br>
 		<form name="login">
 		<div class="login">
-			<input type="password" placeholder="password" name="pswrd"><br>
-			<input type="button" value="Go" onclick="check(this.form)" />
+			<p>Please enter the password below.</p>
+            <input type="password" placeholder="password" id="pswd"><br>
+			<input type="button" value="Go" onclick="checkPswd()"  id="button"/>
+            <p><a href="http://mickeylaw.design/">BACK</p>
 		</div>
+    </div>
 
 
 
 </form>
 
 <script language="javascript">
-function check(form)
-{
 
- if (form.pswrd.value == "howinglaw")
-  {
-    window.open('5indeskset.html')
-  }
- else
- {
-   alert("Invalid password, please try again.")
-  }
+document.onkeypress = enter;
+function enter(e) {
+    if (e.which == 13) {
+        checkPswd();
+    }
+}
+
+function checkPswd() {
+    var confirmPassword = "1234";
+    var password = document.getElementById("pswd").value;
+    if (password == confirmPassword) {
+         window.location="5indeskset.html";
+    }
+    else{
+        alert("Invalid password, please try again.");
+    }
 }
 </script>
 </body>
