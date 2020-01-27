@@ -138,6 +138,8 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 @media (max-width: 991.98px) { .templateux-hero .lead { font-size: 20px; } }
 
+.templateux-about, .intro { height: 7vh; min-height: 250px; }
+
 .templateux-ux, .intro { height: 7vh; min-height: 250px; }
 
 .templateux-hero .cover { position: absolute; display: block; width: 100%; height: 100%; z-index: -1; }
@@ -226,13 +228,17 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .project:hover .project-hover .project-hover-inner span, .project:hover .project-hover .post-hover-inner span, .project:hover .post-hover .project-hover-inner span, .project:hover .post-hover .post-hover-inner span, .project:focus .project-hover .project-hover-inner span, .project:focus .project-hover .post-hover-inner span, .project:focus .post-hover .project-hover-inner span, .project:focus .post-hover .post-hover-inner span, .post:hover .project-hover .project-hover-inner span, .post:hover .project-hover .post-hover-inner span, .post:hover .post-hover .project-hover-inner span, .post:hover .post-hover .post-hover-inner span, .post:focus .project-hover .project-hover-inner span, .post:focus .project-hover .post-hover-inner span, .post:focus .post-hover .project-hover-inner span, .post:focus .post-hover .post-hover-inner span { bottom: 0; visibility: visible; opacity: 1; }
 
-.templateux-footer { padding: 7em 0; border-top: 1px solid #F4F4F4; }
+.templateux-footer { padding: 2em 0; border-top: 1px solid #F4F4F4; }
 
 .templateux-footer .container-fluid { max-width: 100%; }
+
+.templateux-footer p { display:table-cell; vertical-align:middle; padding:15px; }
 
 .templateux-footer small { font-size: 16px; }
 
 .templateux-footer p:last-child { margin-bottom: 0; }
+
+.templateux-footer p { font-size: 14px; }
 
 .templateux-footer .footer-social { position: relative; }
 
@@ -512,3 +518,9 @@ textarea.form-control { height: inherit; }
     position: relative;
     float: right;
 }
+
+.btb { font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: 400; }
+
+.btb a { margin-right: 20px; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; color: #000; position: relative; padding-bottom: 5px; display: block; text-align: center;}
+
+.btb a:hover { color: #7f8490; }
