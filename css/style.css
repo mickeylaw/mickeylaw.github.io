@@ -37,7 +37,7 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     color: #53575f;
 }
 
@@ -51,7 +51,8 @@ h3 {
 h5 {
     font-family: 'Crimson Text', serif;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 18px;
     color: #53575f;
 }
 
@@ -134,7 +135,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero { background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative; overflow: hidden; }
 
-.templateux-hero .lead { font-size: 28px; }
+.templateux-hero .lead { font-size: 24px; font-size: 4vw;}
 
 @media (max-width: 991.98px) { .templateux-hero .lead { font-size: 20px; } }
 
@@ -154,7 +155,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 /*.templateux-hero, .intro { height: 10vh; min-height: 500px; }*/
 
-.templateux-hero, .intro { height: 10vh; min-height: 400px; }
+.templateux-hero, .intro { height: 10vh; min-height: 600px; }
 
 .templateux-hero h1, .intro h1 { color: #3c3c3c; font-size: 70px; }
 
@@ -174,7 +175,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 @media (max-width: 991.98px) { .templateux-portfolio-overlap { margin-top: -50px; } }
 
-.container-fluid { padding-left: 50px; padding-right: 50px; max-width: 1600px; }
+.container-fluid { padding-left: 150px; padding-right: 150px; max-width: 1600px; }
 
 @media (max-width: 767.98px) { .container-fluid { padding-left: 15px; padding-right: 15px; } }
 
@@ -212,13 +213,13 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .project figure, .post figure { margin: 0; position: relative; }
 
-.project .project-hover, .project .post-hover, .post .project-hover, .post .post-hover { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(31, 31, 31, 0.9); visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
+.project .project-hover, .project .post-hover, .post .project-hover, .post .post-hover { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255, 255, 255, 0.9); visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
 .project .project-hover .project-hover-inner, .project .project-hover .post-hover-inner, .project .post-hover .project-hover-inner, .project .post-hover .post-hover-inner, .post .project-hover .project-hover-inner, .post .project-hover .post-hover-inner, .post .post-hover .project-hover-inner, .post .post-hover .post-hover-inner { position: absolute; z-index: 99; left: 50%; top: 50%; visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); transition: .3s all ease; text-align: center; }
 
-.project .project-hover .project-hover-inner h2, .project .project-hover .post-hover-inner h2, .project .post-hover .project-hover-inner h2, .project .post-hover .post-hover-inner h2, .post .project-hover .project-hover-inner h2, .post .project-hover .post-hover-inner h2, .post .post-hover .project-hover-inner h2, .post .post-hover .post-hover-inner h2 { color: #fff; font-size: 23px; line-height: 1.2; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; opacity: 0; visibility: hidden; position: relative; bottom: -30px; }
+.project .project-hover .project-hover-inner h2, .project .project-hover .post-hover-inner h2, .project .post-hover .project-hover-inner h2, .project .post-hover .post-hover-inner h2, .post .project-hover .project-hover-inner h2, .post .project-hover .post-hover-inner h2, .post .post-hover .project-hover-inner h2, .post .post-hover .post-hover-inner h2 { color: #53575f; font-size: 23px; line-height: 1.2; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; opacity: 0; visibility: hidden; position: relative; bottom: -30px; }
 
-.project .project-hover .project-hover-inner span, .project .project-hover .post-hover-inner span, .project .post-hover .project-hover-inner span, .project .post-hover .post-hover-inner span, .post .project-hover .project-hover-inner span, .post .project-hover .post-hover-inner span, .post .post-hover .project-hover-inner span, .post .post-hover .post-hover-inner span { color: rgba(255, 255, 255, 0.8); font-size: 14px; opacity: 0; visibility: hidden; position: relative; bottom: -30px; -webkit-transition: .5s all ease; -o-transition: .5s all ease; transition: .5s all ease; }
+.project .project-hover .project-hover-inner span, .project .project-hover .post-hover-inner span, .project .post-hover .project-hover-inner span, .project .post-hover .post-hover-inner span, .post .project-hover .project-hover-inner span, .post .project-hover .post-hover-inner span, .post .post-hover .project-hover-inner span, .post .post-hover .post-hover-inner span { color: #53575f; font-size: 14px; opacity: 0; visibility: hidden; position: relative; bottom: -30px; -webkit-transition: .5s all ease; -o-transition: .5s all ease; transition: .5s all ease; }
 
 .project:hover .project-hover, .project:hover .post-hover, .project:focus .project-hover, .project:focus .post-hover, .post:hover .project-hover, .post:hover .post-hover, .post:focus .project-hover, .post:focus .post-hover { visibility: visible; opacity: 1; }
 
@@ -521,6 +522,40 @@ textarea.form-control { height: inherit; }
 
 .btb { font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: 400; }
 
-.btb a { margin-right: 20px; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; color: #000; position: relative; padding-bottom: 5px; display: block; text-align: center;}
-
 .btb a:hover { color: #7f8490; }
+
+.btb a { margin-right: 0px; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; color: #000; position: relative; padding-bottom: 5px; display: block; text-align: left;}
+
+
+
+.btb .alignleft {float: left; }
+
+.btb .alignright {float: right;}
+
+.myBtn {
+  width: 40px;
+  height: 40px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none!important;
+  box-shadow: none;
+  background-color: #7f8490;
+  color: white;
+  cursor: pointer;
+  padding: 3px;
+
+}
+
+.myBtn:hover {
+  background-color: #9BABB2;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
