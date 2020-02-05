@@ -135,7 +135,9 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero { background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative; overflow: hidden; }
 
-.templateux-hero .lead { font-size: 24px; font-size: 4vw;}
+.templateux-hero h2 {  font-size: 24px ; font-weight: 400}
+
+.templateux-hero .lead { font-size: 18px; font-size: 2vw;}
 
 @media (max-width: 991.98px) { .templateux-hero .lead { font-size: 20px; } }
 
