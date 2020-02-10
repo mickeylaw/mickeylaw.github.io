@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:700,700i&display=swap');
 
+
+
 body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Proxima Nova", "Proxima Nova Semibold", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 /*::-moz-selection { background: yellow; }
@@ -561,3 +563,97 @@ html {
   scroll-behavior: smooth;
 
 }
+
+.header{
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 140px);
+
+}
+
+.header div{
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #3c3c3c;
+}
+
+.header div span{
+    color: #3c3c3c !important;
+}
+
+.login{
+    position: absolute;
+    /*top: calc(50% - 75px);
+    left: calc(50% - 50px);*/
+    top: calc(50% - 35px);
+    left: calc(50% - 140px);
+    height: 150px;
+    width: 350px;
+    /*padding: 10px;*/
+
+}
+
+.login input[type=password]{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(60,60,60,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #7f8490;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=button]{
+    width: 260px;
+    height: 35px;
+    background: #7f8490;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+    opacity: 0.8;
+}
+
+.login input[type=button]:active{
+    opacity: 0.6;
+}
+
+
+.login input[type=password]:focus{
+    outline: none;
+    border: 1px solid rgba(60,60,60,0.9);
+}
+
+.login input[type=button]:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(60,60,60,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(60,60,60,0.6);
+}
+
