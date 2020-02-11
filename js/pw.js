@@ -11,7 +11,7 @@ function checkPswd() {
     var confirmPassword = "1234";
     var password = document.getElementById("pswd").value;
     if (password == confirmPassword) {
-         window.open("work.html");
+         window.open("work.html","_self");
     }
     else{
         alert("Invalid password, please try again.");
