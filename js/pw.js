@@ -8,7 +8,7 @@ function enter(e) {
 }
 
 function checkPswd() {
-    var confirmPassword = "1234";
+    var confirmPassword = "hwlaw";
     var password = document.getElementById("pswd").value;
     if (password == confirmPassword) {
          window.open("work.html","_self");
