@@ -80,7 +80,7 @@
 	margin-top: 10px;
 }
 
-.login input[type=button]{
+.login input[type=submit]{
 	width: 260px;
 	height: 35px;
 	background: #7f8490;
@@ -98,11 +98,11 @@
 	margin-top: 10px;
 }
 
-.login input[type=button]:hover{
+.login input[type=submit]:hover{
 	opacity: 0.8;
 }
 
-.login input[type=button]:active{
+.login input[type=submit]:active{
 	opacity: 0.6;
 }
 
@@ -112,7 +112,7 @@
 	border: 1px solid rgba(60,60,60,0.9);
 }
 
-.login input[type=button]:focus{
+.login input[type=submit]:focus{
 	outline: none;
 }
 
@@ -148,16 +148,20 @@ p {
 			<div>Mickey Law</div>
 		</div>
 		<br>
-		<form name="login">
+		<form name="login" onsubmit="checkPswd()" >
     		<div class="login">
     			<p>Please enter the password below.</p>
-                <input type="password" placeholder="password" id="pswd"><br>
-    			<input type="button" value="Go" onclick="checkPswd()"  id="button"/>
+                <input type="password" placeholder="password" id="pswd" ><br>
+    			<input type="submit" value="Go" id="button">
                 <!--p><a href="http://mickeylaw.design/">BACK</p-->
     		</div>
         </form>
     </div>
 
+
 <script src="js/pw.js"></script>
+
+
+
 </body>
 </html>

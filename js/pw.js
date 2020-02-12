@@ -8,6 +8,7 @@ function enter(e) {
 }
 
 function checkPswd() {
+    event.preventDefault();
     var confirmPassword = "hwlaw";
     var password = document.getElementById("pswd").value;
     if (password == confirmPassword) {
