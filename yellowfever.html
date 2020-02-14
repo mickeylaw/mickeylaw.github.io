@@ -57,7 +57,7 @@
 
       <div class="container">
         <div class="row align-items-center justify-content-center intro">
-          <div class="col-md-10" data-aos="fade-up">
+          <div class="col-md-11" data-aos="fade-up">
             <!--div class="row justify-content-center"-->
             <!--/div-->
             <h1 style="text-align:center">Yellow Fever</h1>
@@ -80,198 +80,202 @@
           <div class="col-md-10">
 
             <div class="row work-detail">
-              <div class="col-md-4 ">
+              <div class="col-md-3 ">
                 <span class=caption>Category</span>
-                <span class=cap>Programming<br /> Python<br /> Pygame</span>
+                <span class=cap>Programming<br /> Python<br /> Pygame <br /> Visual Design</span>
               </div>
-              <div class="col-md-4">
-                <span class=caption>My Role</span>
-                <span class=cap>Programmer<br /> Visual Designer</span>
-              </div>
-              <div class="col-md-4">
+              <div class="col-md-3">
                 <span class=caption>Duration</span>
                 <span class=cap>2 weeks <br />Nov - Dec 2019</span>
               </div>
+              <div class="col-md-3">
+                <span class=caption>Our Team</span>
+                <span class=cap>Mickey Law<br /> Nayoen Lew<br /> Gabriel Yong<br />Ophelia Wong</span>
+              </div>
+              <div class="col-md-3 ">
+                <span class=caption>My Contribution</span>
+                <span class=cap>Programming<br />Interface Design</span>
+              </div>
             </div>
 
-            <p class="text-center mb-5"><img src="images/yellowfever.jpg" alt="Image placeholder" class="img-fluid" width="790"></p>
+            <p class="text-center mb-5"><img src="images/yellowfever.jpg" alt="Image placeholder" class="img-fluid" width="842"></p>
+            <div class="row justify-content-center">
 
-            <div class="row">
-              <div class="row justify-content-center">
-
-                <div class="col-md-10">
-                  <p class="mb-3">Yellow Fever is a game programmed using Pygame. The aim of this project was to deploy our object-oriented programming knowledge to design a playful game. </p>
-                </div>
-                 <div class="col-md-10">
-                  <p class="mb-4">In this project, I was responsible for the programming the game flow, animation of characters and objects, and the interface design of the game.</p>
-                </div>
-                <div class="col-md-10">
-                  <h2 class="text-center"><br /><br />01</h2>
-                  <h4 class="mb-5 text-center">Ideation</h4>
-                </div>
-                <div class="col-md-10">
-                  <h6 class="mb-3"></h6>
-                  <p class="mb-5">Initially, we discussed the theme and story of the game. We all acknowledged to design a 2D side scrolling game where the player scores points for jumping and avoiding certain obstacles.</p>
-                </div>
-                <div class="col-md-10">
-                  <h6 class="mb-3">Story</h6>
-                  <p class="mb-5">A girl wakes up in castle land and suddenly all the boys start courting her. The player has to help her avoid the boys and love letters by jumping over them by pressing space bar. Collision with the "love letter" would result in a deduction of 1 point while collision with the "boy" would result in a game over.</p>
-                </div>
-                <div class="col-md-10">
-                  <h2 class="text-center"><br /><br />02</h2>
-                  <h4 class="mb-5 text-center">Programming</h4>
-                </div>
-                <div class="col-md-10">
-                  <h6 class="mb-3">Game Flow</h6>
-                  <p class="mb-5">The construct of the game flow has made reference of two sets of codes of the flappy bird game. At first, I created a welcome screen, main game loop and a game over screen based on the flappy bird game flow. I added an instruction screen after the welcome screen so as to tell the players how to play the game. Programming the transition from welcome screen to instruction screen, I learned how to use conditions to determine if the loop of welcome screen is done and to transit to the next screen.</p>
-                </div>
-                <div class="col-md-10">
-                  <div class="row work-detail">
-                    <div class="col-md-10">
-                      <p class="mb-3"><strong>Welcome screen and Instruction screen</strong></p>
-                    </div>
-                    <div class="text-center col-md-10">
-                      <video width="790" autoplay="true" loop="" muted="" >
-                        <source src="images/yf_welcome_instruct.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                      </video>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-10">
-                  <div class="row work-detail">
-                    <div class="col-md-10">
-                      <p class="mb-3"><strong>Main game loop</strong></p>
-                    </div>
-                    <div class="text-center col-md-10">
-                      <video width="790" autoplay="true" loop="" muted="">
-                        <source src="images/yf_mainloop.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                      </video>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-10">
-                  <div class="row work-detail">
-                    <div class="col-md-10">
-                      <p class="mb-3"><strong>Game over screen</strong></p>
-                    </div>
-                    <div class="text-center col-md-10">
-                      <video width="790" autoplay="true" loop="" muted="">
-                        <source src="images/yf_gameover.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                      </video>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-10">
-                  <h2 class="text-center"><br /></h2>
-                  <h6 class="mb-3">Animation of Characters</h6>
-                </div>
-                <div class="col-md-10">
-                  <p class="mb-5">The image sprites for the motion of girl and boy were based on the flappy bird game. Making the animation of the girl and boy, I figured out how to set up image counts and animation time to <strong>show a sequence of images once at a time with desirable screen time</strong> and to <strong>visualise the motions of characters using a list of images</strong>. <br /><br />As the boy was generated in random distance as soon as he disappeared from screen, it was similar to the idea of generating random pipes in the flappy bird game, except that I added the animation and velocity difference with the side-scroller base in order to display the running motion of it.</p>
-                </div>
-                <div class="col-md-10">
-                  <div class="row work-detail">
-                    <div class="col-md-5">
-                      <p class="mb-3"><strong>Animation of boy</strong></p>
-                    </div>
-                    <div class="text-center col-md-7">
-                      <video width="400" autoplay="true" loop="" muted="">
-                        <source src="images/yf_boy_run.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                      </video>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-10">
-                  <div class="row work-detail">
-                    <div class="col-md-5">
-                      <p class="mb-3"><strong>Animation of girl</strong></p>
-                    </div>
-                    <div class="text-center col-md-7">
-                      <video width="400" autoplay="true" loop="" muted="">
-                        <source src="images/yf_girl_run.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                      </video>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-10">
-                  <h2 class="text-center"><br /></h2>
-                  <h6 class="mb-3">Animation of Obstacles</h6>
-                </div>
-                <div class="col-md-10">
-                  <p class="mb-5"> For the generation of love letter bullets, my group mate, Nancy, referred to the codes from the boy at the beginning and created random bullets. As we expected the bullets to be shot from the boy, I modified the code so that generation point was following the position of the boy on screen. <br /><br />For checking the collision of characters (girl and boy) and obstacle (love letter bullet), I learned to <strong>apply mask on the images</strong>, it can therefore <strong>check if the pixels of two images overlap and help justify to minus the score or end the game in the main loop.</strong></p>
-                </div>
-                <div class="col-md-10">
-                  <div class="row work-detail">
-                    <div class="col-md-10">
-                      <p class="mb-3"><strong>Love letter bullet and point deduction</strong></p>
-                    </div>
-                    <div class="text-center col-md-10">
-                      <video width="790" autoplay="true" loop="" muted="">
-                        <source src="images/yf_minus.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                      </video>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-10">
-                  <h2 class="text-center"><br /></h2>
-                  <h6 class="mb-3">Challenges in animating the countdown screen</h6>
-                </div>
-                <div class="col-md-10">
-                  <p class="mb-5">The countdown screen before starting the game was added afterwards since it allows player to get ready. I worked with my group mates, Nancy and Gabriel, to program the countdown screen before the main game loop starts. At the beginning, we encountered difficulties as we used clock tick for pausing at the counter number, which at the same time froze all the motions of elements on screen. I eventually resolved this by adding a class of Countdown which referred to the animation of characters to show the sprites of counter number and modified the animation time for manipulating the duration for display. When the counting was done, the game loop began. This solution eventually kept all motions of all the other elements.</p>
-                </div>
-                <div class="col-md-10">
-                  <div class="row work-detail">
-                    <div class="col-md-10">
-                      <p class="mb-3"><strong>Countdown screen</strong></p>
-                    </div>
-                    <div class="text-center col-md-10">
-                      <video width="790" autoplay="true" loop="" muted="">
-                        <source src="images/yf_countdown.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                      </video>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-10">
-                  <h2 class="text-center"><br /><br />03</h2>
-                  <h4 class="mb-5 text-center">Visual Design</h4>
-                </div>
-                <div class="col-md-10">
-                  <p class="mb-3">I was also in charge of the game interface design, including making the game text, game logo and layouts of different screens.</p>
-                </div>
-                <div class="col-md-10">
-                  <p class="text-center mb-1"><img src="images/yf_opening.png" alt="Image placeholder" class="img-fluid" width="790"></p>
-                </div>
-
-                <div class="col-md-10">
-                  <p class="text-center mb-5"><img src="images/yf_how_to_play.png" alt="Image placeholder" class="img-fluid" width="790"></p>
-                </div>
-
-
-                <div class="col-md-10">
-                  <p class="mb-3">The code is open sourced on GitHub.<br /> See the code: <a href="https://github.com/mickeylaw/Yellow-Fever" class="alignright" style="color: #7f8490"><u>https://github.com/mickeylaw/Yellow-Fever</u></a> </p>
-                </div>
-
-
-                <div class="col-md-10">
-                  <div class="btb">
-                    <h2 class="text-center"><br /><br /></h2>
-                    <a href="mcdonalds.html" class="alignleft" > « Previous post </a>
-                    <a href="tabi.html" class="alignright" >Next post »</a>
-                  </div>
-                </div>
-
+              <div class="col-md-11">
+                <p class="mb-3">Yellow Fever is a game programmed using Pygame. This was a group project and the aim was to deploy our object-oriented programming knowledge to design a playful game. </p>
               </div>
+               <div class="col-md-11">
+                <p class="mb-4">In this project, I was responsible for the programming of the game flow, animation of characters and objects, and the interface design of the game.</p>
+              </div>
+              <div class="col-md-11">
+                <h2 class="text-center"><br /><br />01</h2>
+                <h4 class="mb-5 text-center">Ideation</h4>
+              </div>
+              <div class="col-md-11">
+                <h6 class="mb-3"></h6>
+                <p class="mb-5">Initially, we discussed the theme and story of the game. We all acknowledged to design a 2D side scrolling game where the player scores points for jumping and avoiding certain obstacles.</p>
+              </div>
+              <div class="col-md-11">
+                <h6 class="mb-3">Story</h6>
+                <p class="mb-5">A girl wakes up in castle land and suddenly all the boys start courting her. The player has to help her avoid the boys and love letters by jumping over them by pressing space bar. Collision with the "love letter" would result in a deduction of 1 point while collision with the "boy" would result in a game over.</p>
+              </div>
+              <div class="col-md-11">
+                <h2 class="text-center"><br /><br />02</h2>
+                <h4 class="mb-5 text-center">Programming</h4>
+              </div>
+              <div class="col-md-11">
+                <h6 class="mb-3">Game Flow</h6>
+                <p class="mb-5">The construct of the game flow has made reference of two sets of codes of the flappy bird game. At first, I created a welcome screen, main game loop and a game over screen based on the flappy bird game flow. I added an instruction screen after the welcome screen so as to tell the players how to play the game. Programming the transition from welcome screen to instruction screen, I learned how to use conditions to determine if the loop of welcome screen is done and to transit to the next screen.</p>
+              </div>
+              <div class="col-md-11">
+                <div class="row work-detail">
+                  <div class="col-md-11">
+                    <p class="mb-3"><strong>Welcome screen and Instruction screen</strong></p>
+                  </div>
+                  <div class="text-center col-md-12">
+                    <video width="842" autoplay="true" loop="" muted="" >
+                      <source src="images/yf_welcome_instruct.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-11">
+                <div class="row work-detail">
+                  <div class="col-md-12">
+                    <p class="mb-3"><strong>Main game loop</strong></p>
+                  </div>
+                  <div class="text-center col-md-12">
+                    <video width="842" autoplay="true" loop="" muted="">
+                      <source src="images/yf_mainloop.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-11">
+                <div class="row work-detail">
+                  <div class="col-md-11">
+                    <p class="mb-3"><strong>Game over screen</strong></p>
+                  </div>
+                  <div class="text-center col-md-12">
+                    <video width="842" autoplay="true" loop="" muted="">
+                      <source src="images/yf_gameover.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-11">
+                <h2 class="text-center"><br /></h2>
+                <h6 class="mb-3">Animation of Characters</h6>
+              </div>
+              <div class="col-md-11">
+                <p class="mb-5">The image sprites for the motion of girl and boy were based on the flappy bird game. Making the animation of the girl and boy, I figured out how to set up image counts and animation time to <strong>show a sequence of images once at a time with desirable screen time</strong> and to <strong>visualise the motions of characters using a list of images</strong>. <br /><br />As the boy was generated in random distance as soon as he disappeared from screen, it was similar to the idea of generating random pipes in the flappy bird game, except that I added the animation and velocity difference with the side-scroller base in order to display the running motion of it.</p>
+              </div>
+              <div class="col-md-11">
+                <div class="row work-detail">
+                  <div class="col-md-5">
+                    <p class="mb-3"><strong>Animation of boy</strong></p>
+                  </div>
+                  <div class="text-center col-md-7">
+                    <video width="480" autoplay="true" loop="" muted="">
+                      <source src="images/yf_boy_run.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-11">
+                <div class="row work-detail">
+                  <div class="col-md-5">
+                    <p class="mb-3"><strong>Animation of girl</strong></p>
+                  </div>
+                  <div class="text-center col-md-7">
+                    <video width="480" autoplay="true" loop="" muted="">
+                      <source src="images/yf_girl_run.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-11">
+                <h2 class="text-center"><br /></h2>
+                <h6 class="mb-3">Animation of Obstacles</h6>
+              </div>
+              <div class="col-md-11">
+                <p class="mb-5"> For the generation of love letter bullets, my group mate, Nancy, referred to the codes from the boy at the beginning and created random bullets. As we expected the bullets to be shot from the boy, I modified the code so that generation point was following the position of the boy on screen. <br /><br />For checking the collision of characters (girl and boy) and obstacle (love letter bullet), I learned to <strong>apply mask on the images</strong>, it can therefore <strong>check if the pixels of two images overlap and help justify to minus the score or end the game in the main loop.</strong></p>
+              </div>
+              <div class="col-md-11">
+                <div class="row work-detail">
+                  <div class="col-md-11">
+                    <p class="mb-3"><strong>Love letter bullet and point deduction</strong></p>
+                  </div>
+                  <div class="text-center col-md-12">
+                    <video width="842" autoplay="true" loop="" muted="">
+                      <source src="images/yf_minus.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-11">
+                <h2 class="text-center"><br /></h2>
+                <h6 class="mb-3">Challenges in animating the countdown screen</h6>
+              </div>
+              <div class="col-md-11">
+                <p class="mb-5">The countdown screen before starting the game was added afterwards since it allows player to get ready. I worked with my group mates, Nancy and Gabriel, to program the countdown screen before the main game loop starts. At the beginning, we encountered difficulties as we used clock tick for pausing at the counter number, which at the same time froze all the motions of elements on screen. I eventually resolved this by adding a class of Countdown which referred to the animation of characters to show the sprites of counter number and modified the animation time for manipulating the duration for display. When the counting was done, the game loop began. This solution eventually kept all motions of all the other elements.</p>
+              </div>
+              <div class="col-md-11">
+                <div class="row work-detail">
+                  <div class="col-md-11">
+                    <p class="mb-3"><strong>Countdown screen</strong></p>
+                  </div>
+                  <div class="text-center col-md-12">
+                    <video width="842" autoplay="true" loop="" muted="">
+                      <source src="images/yf_countdown.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-11">
+                <h2 class="text-center"><br /><br />03</h2>
+                <h4 class="mb-5 text-center">Visual Design</h4>
+              </div>
+              <div class="col-md-11">
+                <p class="mb-3">I was also in charge of the game interface design, including making the game text, game logo and layouts of different screens.</p>
+              </div>
+              <div class="col-md-11">
+                <p class="text-center mb-1"><img src="images/yf_logo.png" alt="Image placeholder" class="img-fluid" width="842"></p>
+              </div>
+              <div class="col-md-11">
+                <p class="text-center mb-1"><img src="images/yf_opening.png" alt="Image placeholder" class="img-fluid" width="842"></p>
+              </div>
+
+              <div class="col-md-11">
+                <p class="text-center mb-5"><img src="images/yf_how_to_play.png" alt="Image placeholder" class="img-fluid" width="842"></p>
+              </div>
+
+
+              <div class="col-md-11">
+                <p class="mb-3">The code is open sourced on GitHub.<br /> See the code: <a href="https://github.com/mickeylaw/Yellow-Fever" class="alignright" style="color: #7f8490"><u>https://github.com/mickeylaw/Yellow-Fever</u></a> </p>
+              </div>
+
+
+              <div class="col-md-11">
+                <div class="btb">
+                  <h2 class="text-center"><br /><br /></h2>
+                  <a href="mcdonalds.html" class="alignleft" > « Previous post </a>
+                  <a href="tabi.html" class="alignright" >Next post »</a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>

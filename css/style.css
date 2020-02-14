@@ -327,6 +327,8 @@ textarea.form-control { height: inherit; }
 
 .work-detail strong { display: block; font-weight: normal; color: #53575f;  }
 
+.intro-new p { font-family: 'Montserrat', sans-serif; font-style: normal; display: block; font-weight: 300; font-size: 15px; color: #7f8490; text-align: center; }
+
 .custom-pagination { width: 100%; text-align: center; display: inline-block; }
 
 .custom-pagination li { display: inline-block; }
@@ -568,4 +570,23 @@ html {
 
 }
 
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
 
+.iframe-container {
+  overflow: hidden;
+  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
