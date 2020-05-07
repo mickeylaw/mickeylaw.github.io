@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Mickey Law Design Portfolio</title>
+
+    <style>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+
+
+
+.body{
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: #fff;
+	-webkit-filter: blur(0px);
+
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 150px);
+	left: calc(50% - 140px);
+
+}
+
+.header div{
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	color: #3c3c3c;
+}
+
+.header div span{
+	color: #3c3c3c !important;
+}
+
+.login{
+	position: absolute;
+	/*top: calc(50% - 75px);
+	left: calc(50% - 50px);*/
+    top: calc(50% - 70px);
+    left: calc(50% - 140px);
+	height: 150px;
+	width: 350px;
+	/*padding: 10px;*/
+
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(60,60,60,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #7f8490;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]{
+	width: 260px;
+	height: 35px;
+	background: #7f8490;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=submit]:active{
+	opacity: 0.6;
+}
+
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(60,60,60,0.9);
+}
+
+.login input[type=submit]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(60,60,60,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(60,60,60,0.6);
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #53575f;
+}
+
+</style>
+
+
+
+</head>
+
+<body oncontextmenu="return false">
+
+    <div class="body">
+		<div class="grad"></div>
+		<div class="header">
+			<div>Mickey Law</div>
+		</div>
+		<br>
+		<form name="login" onsubmit="checkPswd()" >
+    		<div class="login">
+    			<p>Please enter the password below.<br /> (Enclosed in resume)</p>
+                <input type="password" placeholder="password" id="pswd" ><br>
+    			<input type="submit" value="Go" id="button">
+                <!--p><a href="http://mickeylaw.design/">BACK</p-->
+    		</div>
+        </form>
+    </div>
+
+
+<script src="js/pw.js"></script>
+
+
+
+</body>
+</html>
