@@ -4,10 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:700,700i&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:wght@300;700&display=swap');
 
 
-body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Proxima Nova", "Proxima Nova Semibold", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: 'Lato', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Proxima Nova", "Proxima Nova Semibold", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 /*::-moz-selection { background: yellow; }
 
@@ -17,14 +17,14 @@ h1 {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    color: #53575f;
+    color: #303030;
 }
 
 h2{
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    color: #53575f;
+    color: #303030;
 }
 
 
@@ -32,8 +32,8 @@ h4 {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    color: #53575f;
+    font-size: 24px;
+    color: #303030;
 }
 
 h6 {
@@ -41,46 +41,58 @@ h6 {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    color: #53575f;
+    color: #303030;
 }
 
 h3 {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 300;
-    color: #7f8490;
+    color: #4a4a4a;
 }
 
 h5 {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Lato', serif;
     font-style: italic;
-    font-weight: 700;
-    font-size: 18px;
-    color: #53575f;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #303030;
 }
 
 p {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #7f8490;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4a4a4a;
 }
 
 span{
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 300;
-    color: #53575f;
+    color: #303030;
 }
 
 strong{
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    color: #53575f;
+    font-weight: 400;
+    color: #303030;
 }
+
+.imageFrame h5 {font-size: 16px;} 
 
 a { -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
@@ -98,7 +110,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .site-logo { position: relative; top: 5px; z-index: 9999; }
 
-.templateux-navbar .site-logo a { font-family: 'Lato', sans-serif; font-style: normal; font-weight: 600; font-size: 24px; color: #3c3c3c; letter-spacing: 1px; line-height: 100%}
+.templateux-navbar .site-logo a { font-family: 'Lato', sans-serif; font-style: normal; font-weight: 600; font-size: 24px; color: #303030; letter-spacing: 1px; line-height: 100%}
 
 .templateux-navbar .templateux-menu { position: relative; }
 
@@ -169,7 +181,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero, .intro { height: 10vh; min-height: 600px; }
 
-.templateux-hero h1, .intro h1 { color: #3c3c3c; font-size: 70px; }
+.templateux-hero h1, .intro h1 { color: #303030; font-size: 70px; }
 
 
 
@@ -187,7 +199,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-portfolio-overlap { position: relative; margin-top: -100px; }
 
-.templateux-portfolio-overlap span { font-family: 'Crimson Text', serif; font-style: italic; font-weight: 700; color: #53575f; }
+.templateux-portfolio-overlap span { font-family: 'Lato', serif; font-style: italic; font-weight: 700; color: #303030; }
 
 @media (max-width: 991.98px) { .templateux-portfolio-overlap { margin-top: -50px; } }
 
@@ -231,11 +243,11 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .project .project-hover, .project .post-hover, .post .project-hover, .post .post-hover { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255, 255, 255, 0.9); visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
-.project .project-hover .project-hover-inner, .project .project-hover .post-hover-inner, .project .post-hover .project-hover-inner, .project .post-hover .post-hover-inner, .post .project-hover .project-hover-inner, .post .project-hover .post-hover-inner, .post .post-hover .project-hover-inner, .post .post-hover .post-hover-inner { position: absolute; z-index: 99; left: 50%; top: 50%; visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); transition: .3s all ease; text-align: center; }
+.project .project-hover .project-hover-inner, .project .project-hover .post-hover-inner, .project .post-hover .project-hover-inner, .project .post-hover .post-hover-inner, .post .project-hover .project-hover-inner, .post .project-hover .post-hover-inner, .post .post-hover .project-hover-inner, .post .post-hover .post-hover-inner { min-width: 240px; position: absolute; z-index: 99; left: 50%; top: 50%; visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); transition: .3s all ease; text-align: center; }
 
-.project .project-hover .project-hover-inner h2, .project .project-hover .post-hover-inner h2, .project .post-hover .project-hover-inner h2, .project .post-hover .post-hover-inner h2, .post .project-hover .project-hover-inner h2, .post .project-hover .post-hover-inner h2, .post .post-hover .project-hover-inner h2, .post .post-hover .post-hover-inner h2 { color: #53575f; font-size: 23px; line-height: 1.2; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; opacity: 0; visibility: hidden; position: relative; bottom: -30px; }
+.project .project-hover .project-hover-inner h2, .project .project-hover .post-hover-inner h2, .project .post-hover .project-hover-inner h2, .project .post-hover .post-hover-inner h2, .post .project-hover .project-hover-inner h2, .post .project-hover .post-hover-inner h2, .post .post-hover .project-hover-inner h2, .post .post-hover .post-hover-inner h2 { color: #303030; font-size: 23px; line-height: 1.2; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; opacity: 0; visibility: hidden; position: relative; bottom: -30px; }
 
-.project .project-hover .project-hover-inner span, .project .project-hover .post-hover-inner span, .project .post-hover .project-hover-inner span, .project .post-hover .post-hover-inner span, .post .project-hover .project-hover-inner span, .post .project-hover .post-hover-inner span, .post .post-hover .project-hover-inner span, .post .post-hover .post-hover-inner span { color: #53575f; font-size: 14px; opacity: 0; visibility: hidden; position: relative; bottom: -30px; -webkit-transition: .5s all ease; -o-transition: .5s all ease; transition: .5s all ease; }
+.project .project-hover .project-hover-inner span, .project .project-hover .post-hover-inner span, .project .post-hover .project-hover-inner span, .project .post-hover .post-hover-inner span, .post .project-hover .project-hover-inner span, .post .project-hover .post-hover-inner span, .post .post-hover .project-hover-inner span, .post .post-hover .post-hover-inner span { font-weight: 300; color: #303030; font-size: 14px; opacity: 0; visibility: hidden; position: relative; bottom: -30px; -webkit-transition: .5s all ease; -o-transition: .5s all ease; transition: .5s all ease; }
 
 .project:hover .project-hover, .project:hover .post-hover, .project:focus .project-hover, .project:focus .post-hover, .post:hover .project-hover, .post:hover .post-hover, .post:focus .project-hover, .post:focus .post-hover { visibility: visible; opacity: 1; }
 
@@ -329,13 +341,15 @@ textarea.form-control { height: inherit; }
 
 .work-detail { margin-bottom: 50px; }
 
-.work-detail .caption { font-family: 'Lato', sans-serif; font-style: normal; display: block; font-weight: 700; font-size: 15px; color: ##53575f; text-align: center; }
+.work-detail .caption { font-family: 'Lato', sans-serif; font-style: normal; display: block; font-weight: 700; font-size: 15px; color: ##303030; text-align: center; }
 
-.work-detail .cap { font-family: 'Lato', sans-serif; font-style: normal; display: block; font-weight: 300; font-size: 15px; color: #7f8490; text-align: center; }
+.work-detail .cap { font-family: 'Lato', sans-serif; font-style: normal; display: block; font-weight: 300; font-size: 15px; color: #4a4a4a; text-align: center; }
 
-.work-detail strong { display: block; font-weight: normal; color: #53575f;  }
+.work-detail strong { display: block; font-weight: normal; color: #303030;  }
 
-.intro-new p { font-family: 'Lato', sans-serif; font-style: normal; display: block; font-weight: 300; font-size: 15px; color: #7f8490; text-align: center; }
+.about strong { font-weight: 400; display: inline }
+
+.intro-new p { font-family: 'Lato', sans-serif; font-style: normal; display: block; font-weight: 300; font-size: 15px; color: #4a4a4a; text-align: center; }
 
 .custom-pagination { width: 100%; text-align: center; display: inline-block; }
 
@@ -540,7 +554,7 @@ textarea.form-control { height: inherit; }
 
 .btb { font-family: 'Lato', sans-serif; font-style: normal; font-weight: 400; }
 
-.btb a:hover { color: #7f8490; }
+.btb a:hover { color: #4a4a4a; }
 
 .btb a { margin-right: 0px; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; color: #000; position: relative; padding-bottom: 5px; display: block; text-align: left;}
 
@@ -562,7 +576,7 @@ textarea.form-control { height: inherit; }
   border: none;
   outline: none!important;
   box-shadow: none;
-  background-color: #7f8490;
+  background-color: #4a4a4a;
   color: white;
   cursor: pointer;
   padding: 3px;
@@ -598,3 +612,5 @@ video {
    top: 0;
    width: 100%;
 }
+
+.vidcap {padding: 25% 18px;}
