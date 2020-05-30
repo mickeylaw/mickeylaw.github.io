@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   </head>
   <body>
 
@@ -97,8 +97,8 @@
               </div>
             </div>
 
-            <p class="text-center mb-5"><img src="images/dt_render@2x.png" alt="Image placeholder" class="img-fluid" width="842"></p>
-            <div class="row justify-content-center" data-aos-delay="50">
+            <p class="text-center mb-5"><img src="images/dt_render@2x.png" alt="Image placeholder" class="img-fluid" width="842" data-aos-delay="50"></p>
+            <div class="row justify-content-center" data-aos-delay="100">
 
               <div class="col-md-11">
                 <p class="mb-3">Our challenge was to design a handheld device used by restaurant employees to take orders from customers queueing in cars in order to reduce waiting time in the drive thru and improve customer satisfaction. McDonald's was chosen as our target restaurant so that we could be more immersive in the context.</p>
@@ -426,6 +426,18 @@
   <script src="js/scripts-all.js"></script>
   <script src="js/main.js"></script>
   <script src="js/backtotop.js"></script>
+  
+  <script type="text/javascript">
+  $(document).ready(function () {
+      setTimeout(function () {
+        $('.load-delay').each(function () {
+            var imagex = $(this);
+            var imgOriginal = imagex.data('original');
+            $(imagex).attr('src', imgOriginal);
+        });
+    }, 3000);
+  });
+  </script>
 
   </body>
 </html>
