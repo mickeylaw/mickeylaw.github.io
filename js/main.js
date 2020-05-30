@@ -102,4 +102,15 @@ jQuery(document).ready(function($){
   		$('.js-templateux-menu').fadeIn(300);
   	}
   })
+
+  $(function(){
+		fullHeight();
+		parallax();
+		testimonialCarousel();
+		contentWayPoint();
+		counterWayPoint();
+		burgerMenu();
+		mobileMenuOutsideClick();
+	});
+
 });
