@@ -448,14 +448,9 @@
     <!-- Toastr resources -->
     <script src="../dist/lozad.min.js"></script>
     <script type="text/javascript">
-    lozad('.lozad', {
-        load: function(el) {
-            el.src = el.dataset.src;
-            el.onload = function() {
-                el.classList.add('fade')
-            }
-        }
-    }).observe()
+    const el = document.querySelector('img');
+    const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
+    observer.observe();
     </script>
 
   </body>
