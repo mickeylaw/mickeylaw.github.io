@@ -98,7 +98,7 @@ a { -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .
 
 a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
-.templateux-navbar { position: fixed; top: 0; left: 0; width: 100%; padding: 15px 0; z-index: 99999;  background-color: #fff}
+.templateux-navbar { position: fixed; top: 0; left: 0; width: 100%; padding: 15px 0; z-index: 99999;  background-color: #fff; height: 60px;}
 
 .templateux-navbar .container-fluid { max-width: 100%; }
 
@@ -163,7 +163,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 @media (max-width: 991.98px) { .templateux-hero .lead { font-size: 20px; } }
 
-.templateux-about, .intro { height: 7vh; min-height: 250px; }
+.templateux-about, .intro { height: 7vh; min-height: 200px; }
 
 .templateux-ux, .intro { height: 7vh; min-height: 250px; }
 
