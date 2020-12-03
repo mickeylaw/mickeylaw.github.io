@@ -22,4 +22,7 @@ window.addEventListener("scroll",()=>{
   else if(objectives.offsetTop <= windo && ideation.offsetTop > windo){
       console.log("Objectives");
   }
+  else {
+    console.log("Home");
+}
 });
