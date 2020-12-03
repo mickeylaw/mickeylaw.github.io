@@ -5,7 +5,7 @@ let data = document.querySelector("#vz-data");
 let objectives = document.querySelector("#vz-objectives");
 let ideation = document.querySelector("#vz-ideation");
 
-document.addEventListener('DOMContentLoaded', function() {
+$(document).ready(function() {
     window.addEventListener("scroll",()=>{
         var windo = window.pageYOffset;
     if(context.offsetTop <= windo && solution.offsetTop > windo){
