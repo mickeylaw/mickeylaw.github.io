@@ -12,6 +12,6 @@
                 navLinks.removeClass('active');
                 $(targetClass).addClass('active');
              }
-          });
+        });
     });
-        })();
+})();
