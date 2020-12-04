@@ -1,30 +1,17 @@
-let context = document.querySelector("#vz-context");
-let solution = document.querySelector("#vz-solution");
-let process = document.querySelector("#vz-process");
-let data = document.querySelector("#vz-data");
-let objectives = document.querySelector("#vz-objectives");
-let ideation = document.querySelector("#vz-ideation");
-
-$(document).ready(function() {
-    window.addEventListener("scroll",()=>{
-        var windo = window.pageYOffset;
-    if(context.offsetTop <= windo && solution.offsetTop > windo){
-        console.log("Context");
-    }
-    else if(solution.offsetTop <= windo && process.offsetTop > windo){
-        console.log("Solution");
-    }
-    else if(process.offsetTop <= windo && data.offsetTop > windo){
-        console.log("Process");
-    }
-    else if(data.offsetTop <= windo && objectives.offsetTop > windo){
-        console.log("Data");
-    }
-    else if(objectives.offsetTop <= windo && ideation.offsetTop > windo){
-        console.log("Objectives");
-    }
-    else {
-        console.log("Home");
-    }
-    })
-});
+(function() {
+    var navLinks = $('nav ul li a'),
+        navH = $('nav').height(),
+        section = $('section'),
+        documentEl = $(document);
+    documentEl.on('scroll', function() {
+        var currentScrollPos = documentEl.scrollTop();
+        section.each(function() {
+            var self = $(this);
+            if ( self.offset().top < (currentScrollPos + navH) && (currentScrollPos + navH) < (self.offset().top + self.outerHeight()) ) {
+                var targetClass = '.' + self.attr('class') + '-marker';
+                navLinks.removeClass('active');
+                $(targetClass).addClass('active');
+             }
+          });
+    });
+        })();
